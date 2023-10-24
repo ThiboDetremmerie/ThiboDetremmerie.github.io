@@ -1,0 +1,32 @@
+.arial-heading {
+    font-family: Arial, sans-serif;
+}
+
+.arial-heading h1 {
+    font-size: 1.8em;
+}
+
+.arial-heading h2 {
+    font-size: 1.5em;
+}
+
+.arial-heading h3 {
+    font-size: 1.4em;
+}
+
+.times-paragraph {
+    font-family: 'Times New Roman';
+    font-size: 1.2em;
+}
+
+.red-text {
+    color: red;
+}
+
+.green-text {
+    color: green;
+}
+
+.blue-text {
+    color: blue;
+}
