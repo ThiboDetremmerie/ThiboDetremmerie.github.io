@@ -1,0 +1,24 @@
+ul.checklist {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.checklist li {
+    margin: 5px 0;
+}
+
+/* Stijl voor aangevinkte items */
+ul.checklist li.checked {
+    background-size: 10px; /* Pas de grootte van het vinkje aan zoals nodig */
+    background-repeat: no-repeat;
+    padding-left: 30px; /* Ruimte voor het vinkje */
+}
+
+/* Stijl voor niet-aangevinkte items */
+ul.checklist li:not(.checked) {
+
+
+    background-size: 10px; /* Pas de grootte van het lege vakje aan zoals nodig */
+    background-repeat: no-repeat;
+    padding-left: 30px; /* Ruimte voor het lege vakje */
+}

@@ -1,0 +1,23 @@
+body {
+    font: 1.1em Verdana;
+    background-color: silver;
+    color: darkblue;
+}
+
+h1 {
+    font-variant: small-caps;
+    background-color: red;
+}
+
+
+
+.stippeltjesrand {
+    border: 1px dotted black;
+    padding: 8px;
+}
+
+
+.link-with-icon:hover {
+    color: red;
+    text-decoration: none;
+}
