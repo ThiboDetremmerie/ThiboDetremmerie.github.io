@@ -1,0 +1,26 @@
+body{
+    margin: auto;
+    text-align: center;
+    background-color: grey;
+    list-style-position: inside;
+}
+
+h1{
+    background-color: #2B2D42;
+    color: white;
+}
+
+h2 {
+    color: white;
+
+}
+
+article{
+    width: 95%;
+    margin: auto;
+    padding-top: 4vh;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    margin-bottom: 4vh;
+}

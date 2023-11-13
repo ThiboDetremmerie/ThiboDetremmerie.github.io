@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.month {
+    background: rgb(170,170,200);
+    color: black;
+}
+
+.th{
+    color: rgb(200,190,240);
+    background-color: rgb(35,37,70);
+
+}
+td {
+    background: #fff;
+}
+
+tr th {
+    color: rgb(200,190,240);
+    background-color:  rgb(35,37,70);
+}
+td:last-child{
+    background-color:  rgb(255, 220, 220);
+}
+td:first-child{
+background-color:  rgb(255, 220, 220);
+}
+
+td.prev-next-month {
+    color: #ccc;
+}
+.vrijedag{
+    background-color: rgb(250,120,120);
+}
+
+td.weekend:first-child,
+td.weekend:last-child {
+    background: rgb(255, 220, 220);
+}
+
+.anderemaand{
+    background-color: grey;
+}
+
+td.free-day {
+    background: rgb(250, 120, 120);
+}

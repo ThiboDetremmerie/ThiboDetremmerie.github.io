@@ -1,17 +1,55 @@
+
+
+
 .ok {
     height: 100px;
     background-image: url(../header.jpg);
     background-repeat: no-repeat;
     background-color: #FFFFFF;
     background-size: cover;
+    width: 95%;
+    margin: auto;
+
+
+}
+.ok h1{
+    color: white;
+    text-decoration-line: none;
+    padding-top: unset;
 }
 
 h1{
-    color: white;
+    padding-top: 4vh;
+    color: black;
     font-size: 5vh;
+    text-decoration-line: underline;
+
+
 }
 
-section {
-    background-color: grey;
-    margin-top: 10px;
+nav {
+    width: 95%;
+    margin: auto;
+    background-color: #2B2D42;
 }
+nav a{
+    color: greenyellow;
+}
+
+article {
+    background-color: lightgray;
+    width: 95%;
+    margin: auto;
+
+
+}
+
+article footer{
+    margin: unset;
+}
+
+footer {
+    width: 95%;
+    margin: auto;
+}
+
