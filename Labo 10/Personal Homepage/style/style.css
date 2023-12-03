@@ -1,0 +1,33 @@
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    padding-top: 70px;
+}
+.profile-img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+.content-section {
+    padding: 50px 0;
+    text-align: center;
+}
+.content-section ul {
+    text-align: left;
+
+}
+.footer {
+    background-color: dimgray;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.navbar {
+    background-color: dimgray;
+}
+.navbar-brand, .navbar-nav .nav-link {
+    color: white;
+
+}
