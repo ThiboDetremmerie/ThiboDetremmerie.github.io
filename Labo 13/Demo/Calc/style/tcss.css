@@ -1,0 +1,24 @@
+:root {
+    --nav: #1e90ff;
+    --article: #ff9000;
+    --widthNav: 20%;
+}
+body {
+    display: flex;
+}
+
+nav, article{
+    flex-basis: var(--widthNav);
+    background: var(--nav);
+}
+
+nav {
+    flex-basis: 20%;
+    background-color: blue;
+}
+article {
+    flex-basis: 80%;
+    background-color: orange;
+}
+
+
