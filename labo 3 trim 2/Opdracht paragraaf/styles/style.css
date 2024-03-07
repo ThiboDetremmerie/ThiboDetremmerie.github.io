@@ -1,0 +1,9 @@
+/* CSS-stijl om belangrijke paragrafen dikgedrukt te maken */
+.belangrijk {
+    font-weight: bold;
+}
+
+/* Algemene regel om opvallende elementen in rood te zetten */
+.opvallend {
+    color: red;
+}

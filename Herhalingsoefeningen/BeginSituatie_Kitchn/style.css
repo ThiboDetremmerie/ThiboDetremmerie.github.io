@@ -1,0 +1,85 @@
+/** Volgende CSS gaan we ze geven **/
+body{
+    font-family: Helvetica, sans-serif;
+
+}
+
+.respimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
+    justify-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #e2e2e2;
+
+}
+
+.nav span{
+    border-right: 2px solid #c4c4c4;
+    display: inline-block;
+    float: left;
+    padding: 0 150px;
+    padding-top: 1.5vh;
+}
+
+
+.header{
+    display: grid;
+    font-size: 40px;
+    color: #8D99AE;
+    background-image: url("images/headerimage.jpg");
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    box-sizing: border-box;
+    height: 500px;
+
+}
+
+.title2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid black;
+
+}
+
+.articles{
+    display: grid;
+    padding-right: 40px;
+    float: left;
+    width: 49%;
+    border-bottom: 2px solid grey;
+
+}
+
+.articlesimages{
+    float: right;
+    width: 45%;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.border{
+    border-bottom: 2px solid black;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.articles img {
+    float: right;
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+
+.articles a {
+    color: red;
+}

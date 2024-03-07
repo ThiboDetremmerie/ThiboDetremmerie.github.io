@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>Producten</th>
+        <th>Prijs</th>
+        <th>Aantal</th>
+        <th>Btw</th>
+        <th>Subtotaal</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Product1</td>
+        <td class="prijs">10.00 EUR</td>
+        <td><input type="number" class="aantal" value="0"></td>
+        <td class="btw">6%</td>
+        <td class="subtotaal">0.00 EUR</td>
+    </tr>
+    <tr>
+        <td>Product2</td>
+        <td class="prijs">15.00 EUR</td>
+        <td><input type="number" class="aantal" value="0"></td>
+        <td class="btw">21%</td>
+        <td class="subtotaal">0.00 EUR</td>
+    </tr>
+    <tr>
+        <td>Product3</td>
+        <td class="prijs">12.20 EUR</td>
+        <td><input type="number" class="aantal" value="0"></td>
+        <td class="btw">21%</td>
+        <td class="subtotaal">0.00 EUR</td>
+    </tr>
+    <tr class="total-row">
+        <td colspan="4">Totaal</td>
+        <td id="totaal">0.00 EUR</td>
+    </tr>
+    </tbody>
+</table>
+<button onclick="herbereken()">Herberekenen</button>
+<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+</body>
+</html>
