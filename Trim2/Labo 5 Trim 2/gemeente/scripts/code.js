@@ -3,9 +3,9 @@ const setup = () => {
 }
 const sorteerGemeentes = () => {
 
-    var gemeentes = [];
+    const gemeentes = [];
 
-    var input = prompt("Voer de naam van een gemeente in (typ 'stop' om te stoppen):");
+    let input = prompt("Voer de naam van een gemeente in (typ 'stop' om te stoppen):");
 
     while (input !== "stop") {
 
@@ -15,13 +15,8 @@ const sorteerGemeentes = () => {
     }
 
     gemeentes.sort();
+    const dropdown = document.getElementById("gemeentesDropdown");
+    gemeentes.forEach((gemeente, i) => {dropdown.add(new Option(gemeente))})
 
-    var dropdown = document.getElementById("gemeentesDropdown");
-
-    gemeentes.forEach(function(gemeente) {
-        var option = document.createElement("option");
-        option.text = gemeente;
-        dropdown.add(option);
-    });
 }
 window.addEventListener("load", setup);

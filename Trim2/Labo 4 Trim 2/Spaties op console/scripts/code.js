@@ -1,18 +1,12 @@
 const setup = () => {
-    document.getElementById("btnToon")
-    document.querySelector('button').addEventListener('click', toon);
-    btnToon.addEventListener("click", toon);
+    let buttn = document.getElementById("btnToon")
+    buttn.addEventListener("click", maakmetspaties);
 };
-const toon = () => {
+const maakmetspaties = () => {
     let txtInput=document.getElementById("txtInput");
     let tekst=txtInput.value;
-    let tekstMetSpaties="";
-
-    for (let i=0; i<tekst.length;i++) {
-        tekstMetSpaties+=tekst.charAt(i);
-        tekstMetSpaties+=" ";
-    }
-    console.log(tekstMetSpaties);
+    let nieuwetekst = tekst.split("").join(" ");
+    console.log(nieuwetekst);
 }
 
 document.addEventListener('DOMContentLoaded', setup);

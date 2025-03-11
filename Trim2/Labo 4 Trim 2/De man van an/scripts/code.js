@@ -20,6 +20,8 @@ const setup = () => {
     console.log("Aantal keer 'an' met lastIndexOf: " + tellerLastIndexOf);
 }
 
+
+
 window.addEventListener("load", setup);
 
 

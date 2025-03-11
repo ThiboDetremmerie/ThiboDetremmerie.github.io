@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Title</title>
+</head>
+<body>
+<label for="roker">is roker</label>
+<input type="checkbox" id="roker">
+<form>
+    <label for="taal">moedertaal </label>
+    <input type="checkbox" class="taal" value="Nederlands"> Nederlands
+    <input type="checkbox" class="taal" value="Frans"> Frans
+    <input type="checkbox" class="taal" value="Engels"> Engels
+</form>
+<form>
+    <label for="buurlanddropdown">Favoriete buurland</label>
+    <select id="buurlanddropdown">
+        <option value="Nederland">Nederland</option>
+        <option value="Frankrijk">Frankrijk</option>
+        <option value="Duitsland">Duitsland</option>
+
+    </select>
+</form>
+<form>
+    <label for="bestelling">bestelling</label>
+    <select id="bestelling" multiple>
+        <option value="aardappelen" name="bestel">aardappelen</option>
+        <option value="brood" name="bestel">brood</option>
+        <option value="melk" name="bestel">melk</option>
+        <option value="biefstuk" name="bestel">biefstuk</option>
+        <option value="chips" name="bestel">chips</option>
+        <option value="krant" name="bestel">krant</option>
+    </select>
+
+</form>
+<input type="button" id="submit" value="Toon resultaat">
+<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+</body>
+</html>
