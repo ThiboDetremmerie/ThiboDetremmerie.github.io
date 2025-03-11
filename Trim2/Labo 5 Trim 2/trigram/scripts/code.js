@@ -3,7 +3,7 @@ const setup = () => {
 }
 
 const getTrigrams = (tekst) => {
-    let result = [];
+    let result = []
     let trigram;
     for (let i = 0; i <= tekst.length - 3; i++) {
         trigram = tekst.slice(i, i + 3);
