@@ -5,8 +5,8 @@ const setup = () => {
 const getTrigrams = (tekst) => {
     let result = []
     let trigram;
-    for (let i = 0; tekst.length - 3; i++) {
-        trigram = tekst.slice(i, i <= i + 3);
+    for (let i = 0; i <= tekst.length - 3; i++) {
+        trigram = tekst.slice(i, i + 3);
         result.push(trigram);
     }
     return result;

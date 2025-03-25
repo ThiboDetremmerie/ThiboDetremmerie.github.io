@@ -6,7 +6,7 @@ const setup = () => {
 
 function validate(){
 let remember = document.getElementById("roker")
-    if(remember.checked == 1){
+    if(remember.checked){
         console.log("is een roker");
     }  else {
         console.log("is geen roker");

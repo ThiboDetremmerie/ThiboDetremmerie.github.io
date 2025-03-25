@@ -1,23 +1,26 @@
 const setup = () => {
-    document.getElementById("selStaat").addEventListener("change", selstaat);
-    document.getElementById("txtLetter").addEventListener("input", selTeller);
+    document.getElementById("kipStaat").addEventListener("change", verander);
+    document.getElementById("txtLetter").addEventListener("input", teller);
 }
-const selstaat = () => {
-    tekst = document.getElementById("selStaat").options;
-    image = document.getElementById("img");
-    node = document.getElementById("note");
+const verander = () => {
+    let tekst = document.getElementById("kipStaat").options;
+    let image = document.getElementById("img");
+    let note = document.getElementById("note");
     if(tekst[1].selected){
         image.className = "";
-        image.innerHTML = `<img src="img/with-egg.png" alt="Met ei">`;
-        node.innerHTML = "Hierboven zie je een kip met ei";
+        image.innerHTML =`<img src="img/with-egg.png" alt="Met ei">`;
+        note.innerHTML = "Hierboven, een kip met een ei";
+
     } else if(tekst[2].selected){
         image.className = "";
         image.innerHTML = `<img src="img/without-egg.png" alt="Met ei">`;
-        node.innerHTML = "Hierboven zie je een kip zonder ei";
+        note.innerHTML = "Hierboven, een kip zonder een ei";
+
     }
 }
 
-const selTeller = () => {
+const teller = () => {
+    verander();
     let input = document.getElementById("txtLetter").value;
     let note = document.getElementById("note").innerHTML;
     let count = 0;
@@ -26,12 +29,7 @@ const selTeller = () => {
         count++;
         teller = note.indexOf(input, teller + 1);
     }
-    document.getElementById("note").innerHTML = "";
-    selstaat();
     document.getElementById("note").innerHTML += `<br> Letter "${input}" komt ${count} keer voor in bovenstaande zin.`;
 }
-
-
-
 
 window.addEventListener("load", setup);
